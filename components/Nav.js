@@ -1,19 +1,36 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { hamburger, logo } from '@/assets/assets'
 
 const Nav = () => {
+    const [isOpen, setIsOpen] = useState(false)
     return (
-        <div className='bg-white h-[60px] flex flex-row items-center px-4 justify-between nav shadow-sm'>
-            <div className='flex flex-row space-x-2 items-center'>
-                <Image src={logo} height={50} width={50} alt='logo' />
-                <h1 className='text-primary'>Fuad O., Fullstack Dev.</h1>
+        <>
+            <div className={`bg-white h-[60px] flex flex-row items-center px-4 justify-between nav ${!isOpen && 'shadow-sm'} fixed top-0 right-0 left-0 p-0`}>
+                <div className='flex flex-row space-x-2 items-center'>
+                    <Image src={logo} height={50} width={50} alt='logo' />
+                    <h1 className='text-primary'>theFuad</h1>
+                </div>
+                <div className='flex flex-row items-center space-x-4'>
+                    <Link href='#contact' className='text-primaryBlue'>Contact Me</Link>
+                    <Image src={hamburger} height={30} width={20} alt='menu' onClick={() => setIsOpen((oldOpen) => !oldOpen)} className='pointer' />
+                </div>
             </div>
-            <div className='flex flex-row items-center space-x-4'>
-                <h2 className='text-primaryBlue'>Contact Me</h2>
-                <Image src={hamburger} height={30} width={20} alt='menu' />
+            <div className={`menu ${isOpen ? 'h-[200px] shadow-sm' : 'h-[0px]'} justify-center`}>
+                <div className='quick_access w-full flex items-center justify-center h-[35px]'>
+                    <h2 className='text-primaryBlue text-center'> Quick Access </h2>
+                </div>
+                <div className='flex flex-col justify-center items-center py-4 space-y-3'>
+                    <Link href='#'>About Me</Link>
+                    <Link href='#'>Work Experience</Link>
+                    <Link href='#'>Projects I've Worked On</Link>
+                    <Link href='#'>Go to GitHub</Link>
+
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 

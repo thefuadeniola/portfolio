@@ -1,32 +1,18 @@
 import Nav from "@/components/Nav"
+import Hero from "@/components/Hero"
 import localFont from 'next/font/local'
 
-const gilroy = localFont({
+const sourceSans = localFont({
   src: [
     {
-      path: '../assets/fonts/Gilroy-Light.ttf',
+      path: '../assets/fonts/SourceSansPro-Light.otf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../assets/fonts/Gilroy-LightItalic.ttf',
-      weight: '400',
-      style: 'italic',
-    },
-    {
-      path: '../assets/fonts/Gilroy-Regular.ttf',
+      path: '../assets/fonts/SourceSansPro-Bold.otf',
       weight: '700',
       style: 'normal',
-    },
-    {
-      path: '../assets/fonts/Gilroy-Medium.ttf',
-      weight: '700',
-      style: 'medium',
-    },
-    {
-      path: '../assets/fonts/Gilroy-Heavy.ttf',
-      weight: '800',
-      style: 'bold',
     },
 
   ],
@@ -36,6 +22,7 @@ export default function Home() {
   return (
     <main>
       <Nav />
+      <Hero />
     </main>
   )
 }

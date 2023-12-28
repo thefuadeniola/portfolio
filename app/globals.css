@@ -37,6 +37,11 @@ h1 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.title {
+  font-size: 36px;
+  font-weight: 800;
+}
+
 /* .container {
   height: 300px;
   width: 500px;

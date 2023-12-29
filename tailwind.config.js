@@ -11,8 +11,7 @@ module.exports = {
         'primary': '#000',
         'primaryBlue': '#4831d4',
         'lightBlue': '#8ecae6',
-        'darkBlue': '#03045e',
-        'shinyBlue': '#023e8a'
+        'pink': '#ed52cb'
       },
       dropShadow: {
         'custom': '4px 4px 4px rgb(0 0 0 / 0.6)'

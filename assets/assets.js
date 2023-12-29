@@ -1,5 +1,7 @@
 import logo from './images/ff.svg'
 import hamburger from './images/hamburger.svg'
-import herobg from './images/herobg.png'
+import github from './images/githubIcon.png'
+import linkedin from './images/linkedinIcon.svg'
+import open from './images/open.png'
 
-export { logo, hamburger, herobg }
+export { logo, hamburger, github, linkedin, open }

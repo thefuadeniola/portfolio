@@ -1,26 +1,12 @@
 import Nav from "@/components/Nav"
 import Hero from "@/components/Hero"
-import localFont from 'next/font/local'
+import { Syne } from "next/font/google"
 
-const sourceSans = localFont({
-  src: [
-    {
-      path: '../assets/fonts/SourceSansPro-Light.otf',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../assets/fonts/SourceSansPro-Bold.otf',
-      weight: '700',
-      style: 'normal',
-    },
-
-  ],
-})
+const syne = Syne({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main>
+    <main className={`${syne.className}`}>
       <Nav />
       <Hero />
     </main>

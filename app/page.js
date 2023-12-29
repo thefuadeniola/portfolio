@@ -1,6 +1,6 @@
 import { Syne } from "next/font/google"
-import Navbar from "@/components/Navbar"
-import Header from "@/components/Header"
+import Navbar from "../components/Navbar"
+import Header from "../components/Header"
 
 const syne = Syne({ subsets: ['latin'] })
 

@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { hamburger, logo } from '@/assets/assets'
+import { hamburger, logo } from '../assets/assets'
 import { Syne } from 'next/font/google'
 
 const syne = Syne({ subsets: ['latin'] })

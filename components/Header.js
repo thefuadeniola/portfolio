@@ -1,7 +1,7 @@
 import React from 'react'
 import { Manrope } from 'next/font/google'
 import Image from 'next/image'
-import { github, linkedin, open } from '@/assets/assets'
+import { github, linkedin, open } from '../assets/assets'
 
 const manrope = Manrope({ subsets: ['latin'] })
 

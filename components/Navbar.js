@@ -8,7 +8,7 @@ import { Syne } from 'next/font/google'
 const syne = Syne({ subsets: ['latin'] })
 
 
-const Nav = () => {
+const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <>
@@ -38,4 +38,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default Navbar

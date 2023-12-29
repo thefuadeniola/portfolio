@@ -5,7 +5,7 @@ import { github, linkedin, open } from '@/assets/assets'
 
 const manrope = Manrope({ subsets: ['latin'] })
 
-const Hero = () => {
+const Header = () => {
     return (
         <div className={`${manrope.className} h-[400px] bg-pink px-[25px] pt-[50px] relative`}>
             <h2 className='tracking-wide font-bold text-sm'>OLALEYE FUAD  |  FULLSTACK DEVELOPER</h2>
@@ -24,4 +24,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Header

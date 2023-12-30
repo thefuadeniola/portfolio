@@ -1,9 +1,10 @@
 import React from 'react'
-import { Syne } from 'next/font/google'
+import { Syne, Manrope } from 'next/font/google'
 import { stack } from '../data'
 import Image from 'next/image'
 
 const syne = Syne({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ['latin'] })
 
 const Stack = () => {
     return (
@@ -18,7 +19,7 @@ const Stack = () => {
                         return (
                             <div key={skill.name} className='flex flex-col space-y-2 justify-center items-center'>
                                 <Image src={skill.image} alt={skill.name} height={100} width={100} />
-                                <h1 className='text-[#333]'>{skill.name}</h1>
+                                <h1 className={`${manrope.className} text-[#333]`}>{skill.name}</h1>
                             </div>
                         )
                     })

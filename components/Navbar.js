@@ -12,7 +12,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <>
-            <div className={` ${syne.className} bg-white h-[60px] flex flex-row items-center px-4 justify-between nav ${!isOpen && 'shadow-sm'} fixed top-0 right-0 left-0 p-0`}>
+            <div className={` ${syne.className} bg-white h-[60px] flex flex-row items-center px-4 justify-between nav ${!isOpen && 'shadow-sm'} fixed top-0 right-0 left-0 p-0 z-10`}>
                 <div className='flex flex-row space-x-2 items-center'>
                     <Image src={logo} height={50} width={50} alt='logo' />
                     <h1 className='text-primary'>theFuad</h1>

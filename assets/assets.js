@@ -14,5 +14,6 @@ import reactIcon from './images/reacticon.svg'
 import sql from './images/sql.svg'
 import tailwind from './images/tailwind.svg'
 import wordpress from './images/wordpress.svg'
+import thebldbrand from './images/thebldbrand.png'
 
-export { logo, hamburger, github, linkedin, open, html, css, javascript, jquery, mongo, nextjs, node, reactIcon, sql, tailwind, wordpress }
+export { logo, hamburger, github, linkedin, open, html, css, javascript, jquery, mongo, nextjs, node, reactIcon, sql, tailwind, wordpress, thebldbrand }

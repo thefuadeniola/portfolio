@@ -8,7 +8,7 @@ const manrope = Manrope({ subsets: ['latin'] })
 
 const Stack = () => {
     return (
-        <div className={`${syne.className} p-4 pt-6 mt-6 justify-center`}>
+        <div className={`${syne.className} p-4 pt-6 mt-8 justify-center`}>
             <h1 className='text-center text-[24px]'>
                 What Makes me Fullstack?
             </h1>

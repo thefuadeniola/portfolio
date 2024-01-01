@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import Stack from "../components/Stack"
 import Experience from "../components/Experience"
+import Projects from "../components/Projects"
 
 const syne = Syne({ subsets: ['latin'] })
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <Stack />
       <Experience />
+      <Projects />
     </main>
   )
 }

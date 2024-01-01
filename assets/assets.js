@@ -15,5 +15,17 @@ import sql from './images/sql.svg'
 import tailwind from './images/tailwind.svg'
 import wordpress from './images/wordpress.svg'
 import thebldbrand from './images/thebldbrand.png'
+import threads from './images/threads.png'
+import quiz from './images/quiz.png'
+import carapp from './images/carapp.png'
+import pricewise from './images/pricewise.png'
+import netflix from './images/netflix.png'
+import moodfixr from './images/moodfixr.png'
 
-export { logo, hamburger, github, linkedin, open, html, css, javascript, jquery, mongo, nextjs, node, reactIcon, sql, tailwind, wordpress, thebldbrand }
+export {
+    logo, hamburger,
+    github, linkedin, open,
+    html, css, javascript, jquery, mongo, nextjs, node, reactIcon, sql, tailwind, wordpress,
+    thebldbrand,
+    threads, quiz, carapp, pricewise, netflix, moodfixr
+}

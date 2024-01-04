@@ -6,9 +6,9 @@ import Experience from "../components/Experience"
 import Projects from "../components/Projects"
 import Philosophy from "../components/Philosophy"
 import Marquee from "../components/Marquee"
-/* import ContactMe from "../components/ContactMe"
+import ContactMe from "../components/ContactMe"
 import Footer from "../components/Footer"
- */
+
 const syne = Syne({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,8 +21,8 @@ export default function Home() {
       <Experience />
       <Projects />
       <Philosophy />
-      {/*       <ContactMe />
+      {/* <ContactMe /> */}
       <Footer />
- */}    </main>
+    </main>
   )
 }

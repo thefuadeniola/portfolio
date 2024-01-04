@@ -12,7 +12,7 @@ const rest = projects.slice(1)
 
 const Projects = () => {
     return (
-        <div id='projects' className={`${syne.className} px-4 pt-6 mt-16 mb-10 justify-center`}>
+        <div id='projects' className={`${syne.className} px-4 pt-6 mb-10 justify-center`}>
             <h1 className='text-center text-[24px]'>
                 My Personal Projects
             </h1>

@@ -103,6 +103,36 @@ h1 {
   white-space: nowrap;
 }
 
+.inputGroup {
+  height: 50%;
+  width: 200%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.inputLabel {
+  text-align: left;
+}
+
+.inputField {
+  height: 30px;
+}
+
+.stack {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+  margin-top: 40px;
+}
+
+.tech {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 14px
+}
+
 /* .container {
   height: 300px;
   width: 500px;

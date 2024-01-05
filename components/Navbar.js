@@ -3,21 +3,29 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { hamburger, logo } from '../assets/assets'
-import { Syne } from 'next/font/google'
+import { Manrope, Syne } from 'next/font/google'
 
 const syne = Syne({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ['latin'] })
+
 
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <>
-            <div className={` ${syne.className} bg-white h-[60px] flex flex-row items-center px-4 justify-between nav ${!isOpen && 'shadow-sm'} fixed top-0 right-0 left-0 p-0 z-10`}>
+            <div className={` ${syne.className} bg-white h-[60px] flex flex-row items-center px-4 md:px-10 justify-between nav ${!isOpen && 'shadow-sm'} fixed top-0 right-0 left-0 p-0 z-10`}>
                 <div className='flex flex-row space-x-2 items-center'>
                     <Image src={logo} height={50} width={50} alt='logo' />
                     <h1 className='text-primary'>theFuad</h1>
                 </div>
-                <div className='flex flex-row items-center space-x-4'>
+                <div className={`${manrope.className} md:flex flex-row space-x-8 hidden`}>
+                    <Link href='#philosophy' className='hover:text-primaryBlue'>About Me</Link>
+                    <Link href='#experience' className='hover:text-primaryBlue'>Work Experience</Link>
+                    <Link href='https://github.com/thefuadeniola' className='hover:text-primaryBlue'>Go to GitHub</Link>
+                    <Link href='#contact' className='text-primaryBlue'>Contact Me</Link>
+                </div>
+                <div className='flex flex-row items-center space-x-4 md:hidden'>
                     <Link href='#contact' className='text-primaryBlue'>Contact Me</Link>
                     <Image src={hamburger} height={30} width={20} alt='menu' onClick={() => setIsOpen((oldOpen) => !oldOpen)} className='pointer' />
                 </div>

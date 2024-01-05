@@ -66,7 +66,7 @@ export const projects = [
     },
     {
         name: 'CarApp',
-        summary: 'Web application providing a wide catalog of vehicles and essential info.',
+        summary: 'Web application providing a wide catalog of vehicles and essential info - including daily rent prices.',
         technologies: 'Typescript, Headless UI, Tailwind',
         link: 'https://car-renting-app-seven.vercel.app/',
         github: 'https://github.com/thefuadeniola/car_renting_app',
@@ -98,4 +98,52 @@ export const projects = [
     },
 
 
+]
+
+import { SiDjango, SiJquery, SiTailwindcss, SiNextdotjs, SiFirebase } from 'react-icons/si'
+import { FaReact, FaBootstrap, FaWordpress } from 'react-icons/fa'
+import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io'
+import { AiFillHtml5 } from 'react-icons/ai'
+
+export const newStack = [
+    {
+        name: 'HTML',
+        icon: <AiFillHtml5 />
+    },
+    {
+        name: 'CSS',
+        icon: <IoLogoCss3 />
+    },
+    {
+        name: 'JavaScript',
+        icon: <IoLogoJavascript />
+    },
+    {
+        name: 'Bootstrap',
+        icon: <FaBootstrap />
+    },
+    {
+        name: 'Tailwind CSS',
+        icon: <SiTailwindcss />
+    },
+    {
+        name: 'JQuery',
+        icon: <SiJquery />
+    },
+    {
+        name: 'React',
+        icon: <FaReact />
+    },
+    {
+        name: 'Django',
+        icon: <SiDjango />
+    },
+    {
+        name: 'Firebase',
+        icon: <SiFirebase />
+    },
+    {
+        name: 'WordPress',
+        icon: <FaWordpress />
+    }
 ]

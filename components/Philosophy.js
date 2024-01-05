@@ -6,7 +6,7 @@ const manrope = Manrope({ subsets: ['latin'] })
 const Philosophy = () => {
     return (
         <div className={`flex items-center justify-center mt-16`}>
-            <div class="border radial-repeating flex flex-col items-center justify-center max-w-md">
+            <div class="border radial-repeating flex flex-col items-center justify-center w-screen md:max-w-md">
                 <h1 className='my-4'>My Coding Philosophy</h1>
                 <div className='border-t-2 flex items-center justify-center'>
                     <p className={`${manrope.className} text-center max-w-md text-sm py-6`}>

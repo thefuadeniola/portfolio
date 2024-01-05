@@ -30,7 +30,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col space-y-8 md:flex-row md:space-x-16">
+            <div className="flex flex-col space-y-8 md:flex-row md:space-x-16 md:space-y-0">
                 <div className="flex flex-col space-y-3">
                     <h2 className='text-white font-semibold '>QUICK ACCESS</h2>
                     <Link href="#philosophy" className="text-white text-sm">About Me</Link>
@@ -38,14 +38,12 @@ const Footer = () => {
                     <Link href="#projects" className="text-white text-sm">Projects I've Worked On</Link>
                     <Link href="https://github.com/thefuadeniola" className="text-white text-sm">Go to GitHub</Link>
                 </div>
-                <div className="flex flex-col space-y-4">
-                    <div className="flex flex-col space-y-3">
-                        <h2 className='text-white font-semibold'>GET IN TOUCH</h2>
-                        <Link href="https://linkedin.in/fuad-olaleye" className="text-white text-sm">LinkedIn</Link>
-                        <Link href="https://x.com/theylovefuad" className="text-white text-sm">Twitter</Link>
-                        <Link href="" className="text-white text-sm">WhatsApp</Link>
-                        <Link href="#" className="text-white text-sm">leyefuad@gmail.com</Link>
-                    </div>
+                <div className="flex flex-col space-y-3">
+                    <h2 className='text-white font-semibold'>GET IN TOUCH</h2>
+                    <Link href="https://linkedin.in/fuad-olaleye" className="text-white text-sm">LinkedIn</Link>
+                    <Link href="https://x.com/theylovefuad" className="text-white text-sm">Twitter</Link>
+                    <Link href="" className="text-white text-sm">WhatsApp</Link>
+                    <Link href="#" className="text-white text-sm">leyefuad@gmail.com</Link>
 
                 </div>
             </div>

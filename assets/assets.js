@@ -21,11 +21,13 @@ import carapp from './images/carapp.png'
 import pricewise from './images/pricewise.png'
 import netflix from './images/netflix.png'
 import moodfixr from './images/moodfixr.png'
+import illustration from './images/illustration.png'
 
 export {
     logo, hamburger,
     github, linkedin, open,
     html, css, javascript, jquery, mongo, nextjs, node, reactIcon, sql, tailwind, wordpress,
     thebldbrand,
-    threads, quiz, carapp, pricewise, netflix, moodfixr
+    threads, quiz, carapp, pricewise, netflix, moodfixr,
+    illustration
 }

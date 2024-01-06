@@ -27,7 +27,7 @@ const Projects = () => {
                         <Image src={projects[0].image} height={150} width={400} className='bld__image' />
                         <div className={`${manrope.className} mt-4`}>
                             <h1 className='text-[20px] font-bold mt-2 mb-2'>{projects[0].name}</h1>
-                            <div className='flex flex-col space-y-4 mb-4 font-thin'>
+                            <div className='flex flex-col space-y-4 mb-4 font-thin md:font-light'>
                                 <p className='text-sm'>{projects[0].summary}</p>
                                 <p className='text-sm tech'> {projects[0].technologies}</p>
 
@@ -44,7 +44,7 @@ const Projects = () => {
                                     <Image src={project.image} height={150} width={400} className='bld__image' />
                                     <div className={`${manrope.className} mt-4`}>
                                         <h1 className='text-[20px] font-bold mt-2 mb-2'>{project.name}</h1>
-                                        <div className='flex flex-col space-y-4 mb-4 font-thin'>
+                                        <div className='flex flex-col space-y-4 mb-4 font-thin md:font-light'>
                                             <p className='text-sm'> {project.summary}</p>
                                             <p className='text-sm tech'>{project.technologies}</p>
 

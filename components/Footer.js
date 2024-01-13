@@ -13,6 +13,7 @@ const manrope = Manrope({ subsets: ['latin'] })
 const Footer = () => {
     return (
         <footer
+            id='footer'
             className={`${manrope.className} bg-black md:p-24 p-16 pt-6 flex flex-col space-y-12 md:space-y-0 md:flex-row md:mt-16 justify-around`}>
             <div className="">
                 <div className="nav-logo flex flex-row items-center text-white">

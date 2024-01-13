@@ -10,11 +10,10 @@ import ContactMe from "../components/Contact"
 import Footer from "../components/Footer"
 
 
-const syne = Syne({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={`${syne.className}`}>
+    <main>
       <Navbar />
       <Header />
       <Marquee />

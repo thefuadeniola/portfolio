@@ -26,7 +26,7 @@ const Navbar = () => {
                     <Link href='#contact' className='text-primaryBlue'>Contact Me</Link>
                 </div>
                 <div className='flex flex-row items-center space-x-4 md:hidden'>
-                    <Link href='#contact' className='text-primaryBlue'>Contact Me</Link>
+                    <Link href='#footer' className='text-primaryBlue'>Contact Me</Link>
                     <Image src={hamburger} height={30} width={20} alt='menu' onClick={() => setIsOpen((oldOpen) => !oldOpen)} className='pointer' />
                 </div>
             </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <h2 className='text-primaryBlue text-center'> Quick Access </h2>
                 </div>
                 <div className='flex flex-col justify-center items-center py-4 space-y-3'>
-                    <Link href='#philosophy'>About Me</Link>
+                    <Link href='#about'>About Me</Link>
                     <Link href='#experience'>Work Experience</Link>
                     <Link href='#projects'>Projects I've Worked On</Link>
                     <Link href='https://github.com/thefuadeniola'>Go to GitHub</Link>

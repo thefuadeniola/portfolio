@@ -89,6 +89,10 @@ h1 {
   overflow-x: hidden;
 }
 
+.framework {
+  font-weight: 500;
+}
+
 .horizontal-scrolling-items {
   display: flex;
   font-size: 40px;

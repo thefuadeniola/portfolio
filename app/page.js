@@ -1,4 +1,4 @@
-import { Sree_Krushnadevaraya, Syne } from "next/font/google"
+import { Syne } from "next/font/google"
 import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import Stack from "../components/Stack"
@@ -10,10 +10,11 @@ import ContactMe from "../components/Contact"
 import Footer from "../components/Footer"
 
 
+const syne = Syne({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main>
+    <main className={`${syne.className}`}>
       <Navbar />
       <Header />
       <Marquee />

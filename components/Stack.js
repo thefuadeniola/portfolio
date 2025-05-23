@@ -14,7 +14,12 @@ const Stack = () => {
             </h1>
             <p className={`${syne.className} text-sm font-thin max-w-md text-center md:mt-2`}>Olaleye Fuad is a well rounded fullstack developer.<span className='text-primaryBlue'> Here is a summary of my languages.</span></p>
             <div className='flex flex-wrap gap-6 pt-4  justify-center mt-8 lg:px-32'>
-                <Image src='https://github-readme-stats.vercel.app/api/top-langs/?username=thefuadeniola&layout=donut-vertical' height={300} width={300} />
+                <img
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=thefuadeniola&layout=donut-vertical"
+                alt="Top Languages"
+                width={300}
+                height={300}
+                />
             </div>
         </div>
     )
